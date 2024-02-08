@@ -1,0 +1,7 @@
+<p>current-weather works!</p>
+
+<div *ngIf="currentWeatherData">
+    <h2>{{ currentWeatherData.location.name }}</h2>
+    <p>Temperature: {{ currentWeatherData.current.temp_c }}°C</p>
+    
+  </div>
